@@ -1,17 +1,17 @@
 {
-  "name": "stop",
+  "name": "current-project",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
-  "dependencies": {
-    "nodemon": "^2.0.4",
-    "socket.io": "^2.3.0"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js"
-    
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
 }
