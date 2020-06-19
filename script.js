@@ -4,7 +4,7 @@ var textbox = document.getElementById("textbox");
 var button = document.getElementById("button");
 
 button.addEventListener("click", function(){
-    var newMessages = document.createElement("li");
+    var messages = document.createElement("li");
     newMessages.innerHTML = textbox.value;
     messages.appendChild(newMessage);
     textbox.value = "";
