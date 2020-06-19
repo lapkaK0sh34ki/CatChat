@@ -1,12 +1,12 @@
 
-var messages = document.getElementById("messages");
-var textbox = document.getElementById("textbox");
-var button = document.getElementById("button");
+var messages = document.querySelector("#messages");
+var textbox = document.querySelector("#textbox");
+var button = document.querySelector("#button");
 
 button.addEventListener("click", function(){
-    var messages = document.createElement("li");
+    var newMessages = document.createElement("li");
     newMessages.innerHTML = textbox.value;
-    messages.appendChild(newMessage);
+    messages.appendChild(newMessages);
     textbox.value = "";
 });
 
