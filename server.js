@@ -4,7 +4,7 @@ var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
 server.listen(3000);
-
+const users = {}
 app.use('/public', express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
